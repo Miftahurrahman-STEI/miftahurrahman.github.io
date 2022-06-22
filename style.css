@@ -1,0 +1,397 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/email-pattern.png);
+}
+
+#navbar {
+   width: 100%;
+   height: 56.24px;
+   border-bottom: 1px solid #7F8487;
+   display: flex;
+   justify-content:space-between ;
+   align-items: center;
+   padding: 0 1.5rem;
+   background-color: #570A57;
+   font-family: "Segoe UI", sans-serif;
+   font-weight: 500;
+   position: fixed;
+   top: 0;
+   cursor: pointer;
+}
+
+#navbar ul{
+    list-style: none;;
+    display: flex;
+    gap: 14px;
+    padding-right: 1rem;
+}
+
+#navbar ul li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#navbar a:hover{
+    color: #DFBB9D;
+}
+
+#navbar img{
+    margin-top: 5px;
+    margin-left: 0.4rem;
+    height: 48px;
+    border-radius: 60px;
+    border: 1.5px solid black;
+}
+
+#hero{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hero p{
+    max-width: 350px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 160%;
+    color: #423F3E;
+    margin-bottom: 2rem;
+}
+
+#hero h1{
+    margin-top: 10rem;
+    color: black;
+    font-size: 48px;
+    margin-bottom: 2rem;
+}
+
+#hero #link svg {
+    margin-left: 1rem;
+    margin-bottom: 4rem;
+    color: black;
+}
+
+#hero #link .icon-tabler-brand-facebook{
+    color: blue;
+}
+
+#hero #link .icon-tabler-brand-twitter{
+    color: #3AB0FF;
+}
+
+#hero #link .icon-tabler-brand-discord{
+    color: #5967fb;
+}
+
+#projects {
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 18rem;
+}
+
+#projects h3 {
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#projects .project-card {
+    width: 300px;
+    text-align: left;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+}
+
+#projects .project-card h2{
+    font-size: 18px;
+}
+
+#projects .project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#projects #project-container{
+    padding: 0 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center ;
+}
+
+#project-container{
+    margin-bottom: 20rem;
+}
+
+/* e-commerce */
+#e-commerce{
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-top: 18rem;
+}
+
+#e-commerce h3{
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+#cardmenu-container{
+    padding: 0 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center ;
+    margin-bottom: 10rem;
+}
+
+.bi-star-fill{
+    color: yellow;
+}
+
+.bi-star-half{
+    color: yellow;
+}
+
+.bi-bag-fill{
+    padding-right: 5px;
+}
+
+/* card burger */
+#cardmenu-burger{
+    width: 200px;
+    height: 310px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    background-color: rgb(136, 209, 255);
+}
+
+#cardmenu-burger img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#cardmenu-burger h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+#cardmenu-burger .button-buy-burger{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #F7E2D6;
+    border: #eaeaea;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#cardmenu-burger .button-buy-burger a{
+    text-decoration: none;
+}
+
+#cardmenu-burger .button-buy-burger:hover{
+    box-shadow: 0px 2px 2px 2px lightslategray;
+}
+
+/* card kebab */
+#cardmenu-kebab{
+    width: 200px;
+    height: 310px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    background-color: rgb(136, 209, 255);
+}
+
+#cardmenu-kebab img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#cardmenu-kebab h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+#cardmenu-kebab .button-buy-kebab{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #F7E2D6;
+    border: #eaeaea;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#cardmenu-kebab .button-buy-kebab a{
+    text-decoration: none;
+}
+
+#cardmenu-kebab .button-buy-kebab:hover{
+    box-shadow: 0px 2px 2px 2px lightslategray;
+}
+
+/* card icecream */
+#cardmenu-icecream{
+    width: 200px;
+    height: 310px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    background-color: rgb(136, 209, 255);
+}
+
+#cardmenu-icecream img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#cardmenu-icecream h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+#cardmenu-icecream .button-buy-icecream{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #F7E2D6;
+    border: #eaeaea;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#cardmenu-icecream .button-buy-icecream a{
+    text-decoration: none;
+}
+
+#cardmenu-icecream .button-buy-icecream:hover{
+    box-shadow: 0px 2px 2px 2px lightslategray;
+}
+
+/* card sushi */
+#cardmenu-sushi{
+    width: 200px;
+    height: 310px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+    background-color: rgb(136, 209, 255);
+}
+
+#cardmenu-sushi img{
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+#cardmenu-sushi h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+#cardmenu-sushi .button-buy-sushi{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #F7E2D6;
+    border: #eaeaea;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#cardmenu-sushi .button-buy-sushi a{
+    text-decoration: none;
+}
+
+#cardmenu-sushi .button-buy-sushi:hover{
+    box-shadow: 0px 2px 2px 2px lightslategray;
+}
+
+/* footer */
+#footer-container{
+    padding-top: 1.5rem;
+    padding-left: 8rem;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+#navbottom{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #8787A3;
+}
+
+#navbottom #location{
+    padding-top: 1rem;
+}
+
+#footer-container #location bi-geo-alt{
+    background: #fff;
+}
+
+#navbottom #location p{
+    display: inline;
+    padding-left: 3px;
+}
+
+#navbottom #location h5{
+    padding-left: 1.3rem;
+    padding-bottom: 2rem;
+}
+
+#navbottom #contact p{
+    display: inline;
+    font-size: 13px;
+    font-weight: 900;
+    padding-bottom: 2rem;
+}
+
+#navbottom #email {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#navbottom #email h5{
+    display: inline;
+    font-size: 12px;
+}
+
+#social #social-content{
+    max-width: 400px;
+}
+
+#copyright{
+    color: white;
+    background-color: #570A57;
+    padding-top: 1rem;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: "Segoe UI", sans-serif;
+    text-align: center;
+}
+
+
+
